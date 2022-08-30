@@ -1,0 +1,42 @@
+name: bloc_xamples
+description: flutter bloc examples
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+
+dependencies:
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  google_fonts: ^3.0.1
+  hydrated_bloc: ^8.1.0
+  json_annotation: ^4.6.0
+  path_provider: ^2.0.11
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  bloc_test: ^9.1.0
+  build_runner: ^2.2.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.3.1
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.1
+  flutter_lints: ^2.0.0
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
