@@ -17,12 +17,6 @@ void main() {
     counterCubit = MockCounterCubit();
   });
 
-  var materialApp = MaterialApp(
-    home: BlocProvider.value(
-      value: counterCubit,
-      child: const CounterView(),
-    ),
-  );
   group(
     'CounterView',
     () {
@@ -30,7 +24,14 @@ void main() {
         'renders current cubit state',
         (WidgetTester tester) async {
           when(() => counterCubit.state).thenReturn(40);
-          await tester.pumpWidget(materialApp);
+          await tester.pumpWidget(
+            MaterialApp(
+              home: BlocProvider.value(
+                value: counterCubit,
+                child: const CounterView(),
+              ),
+            ),
+          );
           expect(find.text('40'), findsOneWidget);
         },
       );
@@ -40,7 +41,6 @@ void main() {
           when(() => counterCubit.state).thenReturn(0);
           when(() => counterCubit.increment()).thenReturn(null);
           await tester.pumpWidget(
-            // materialApp,
             MaterialApp(
               home: BlocProvider.value(
                 value: counterCubit,
@@ -59,7 +59,6 @@ void main() {
           when(() => counterCubit.state).thenReturn(0);
           when(() => counterCubit.decrement()).thenReturn(null);
           await tester.pumpWidget(
-            // materialApp,
             MaterialApp(
               home: BlocProvider.value(
                 value: counterCubit,
