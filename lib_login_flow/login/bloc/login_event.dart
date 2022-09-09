@@ -16,10 +16,10 @@ class LoginUsernameChanged extends LoginEvent {
   List<Object> get props => [username];
 }
 
-class LoginPassWordChanged extends LoginEvent {
+class LoginPasswordChanged extends LoginEvent {
   final String password;
 
-  const LoginPassWordChanged(this.password);
+  const LoginPasswordChanged(this.password);
 
   @override
   List<Object> get props => [password];

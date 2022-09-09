@@ -15,7 +15,7 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
   })  : _authenticationRepository = authenticationRepository,
         super(const LoginState()) {
     on<LoginUsernameChanged>(_onUsernameChanged);
-    on<LoginPassWordChanged>(_onPasswordChanged);
+    on<LoginPasswordChanged>(_onPasswordChanged);
     on<LoginSubmitted>(_onLoginSubmitted);
   }
 
@@ -33,13 +33,13 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
   }
 
   void _onPasswordChanged(
-    LoginPassWordChanged events,
+    LoginPasswordChanged events,
     Emitter<LoginState> emits,
   ) {
     final password = Password.dirty(events.password);
     emits(
       state.copyWith(
-        status: Formz.validate([password, state.password]),
+        status: Formz.validate([password, state.username]),
         password: password,
       ),
     );

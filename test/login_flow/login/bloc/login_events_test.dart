@@ -18,8 +18,8 @@ void main() {
     group('LoginPassWordChanged', () {
       test('supports value comparisons', () {
         expect(
-          const LoginPassWordChanged(password),
-          const LoginPassWordChanged(password),
+          const LoginPasswordChanged(password),
+          const LoginPasswordChanged(password),
         );
       });
     });

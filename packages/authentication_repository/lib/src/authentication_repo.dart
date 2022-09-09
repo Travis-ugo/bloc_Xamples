@@ -11,8 +11,10 @@ class AuthenticationRepository {
     yield* _controller.stream;
   }
 
-  Future<void> login(
-      {required String username, required String password}) async {
+  Future<void> login({
+    required String username,
+    required String password,
+  }) async {
     await Future.delayed(
       const Duration(milliseconds: 300),
       (() => _controller.add(AuthenticationStatus.authenticated)),
