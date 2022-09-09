@@ -73,7 +73,7 @@ class _PasswordInput extends StatelessWidget {
           errorText: state.password.invalid ? 'invalid password' : null,
         ),
         onChanged: (password) =>
-            context.read<LoginBloc>().add(LoginPassWordChanged(password)),
+            context.read<LoginBloc>().add(LoginPasswordChanged(password)),
       );
     });
   }
@@ -92,11 +92,11 @@ class _LoginButton extends StatelessWidget {
                 strokeWidth: 0.4,
               )
             : ElevatedButton(
-                onPressed: () {
-                  state.status.isValidated
-                      ? context.read<LoginBloc>().add(const LoginSubmitted())
-                      : null;
-                },
+                onPressed: state.status.isValidated
+                    ? () {
+                        context.read<LoginBloc>().add(const LoginSubmitted());
+                      }
+                    : null,
                 child: const Text('Login'),
               );
       },

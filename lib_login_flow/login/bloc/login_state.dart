@@ -10,9 +10,6 @@ class LoginState extends Equatable {
   final Password password;
   final FormzStatus status;
 
-  @override
-  List<Object> get props => [username, password, status];
-
   LoginState copyWith({
     Username? username,
     Password? password,
@@ -24,4 +21,7 @@ class LoginState extends Equatable {
       status: status ?? this.status,
     );
   }
+
+  @override
+  List<Object> get props => [username, password, status];
 }
