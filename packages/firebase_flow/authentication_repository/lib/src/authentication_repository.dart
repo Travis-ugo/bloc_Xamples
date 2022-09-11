@@ -1,5 +1,5 @@
-import 'package:authentication_repository/src/models/models.dart';
 import 'package:cache/cache.dart';
+import 'package:firebase_flow/authentication_repository.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
 

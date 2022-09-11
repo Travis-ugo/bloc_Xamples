@@ -1,8 +1,7 @@
-import 'package:authentication_repository/src/authentication_repository.dart';
-import 'package:authentication_repository/src/models/models.dart';
 import 'package:cache/cache.dart';
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_flow/authentication_repository.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:mocktail/mocktail.dart';

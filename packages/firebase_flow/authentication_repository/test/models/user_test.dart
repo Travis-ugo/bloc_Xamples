@@ -1,4 +1,4 @@
-import 'package:authentication_repository/src/models/user.dart';
+import 'package:firebase_flow/authentication_repository.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

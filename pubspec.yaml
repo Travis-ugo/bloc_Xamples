@@ -10,6 +10,7 @@ dependencies:
   equatable: ^2.0.5
   flutter:
     sdk: flutter
+  flow_builder: ^0.0.9
   flutter_bloc: ^8.1.1
   google_fonts: ^3.0.1
   hydrated_bloc: ^8.1.0
@@ -20,6 +21,11 @@ dependencies:
   formz: ^0.4.1
   stream_transform: ^2.0.0
   bloc_concurrency: ^0.2.0
+  firebase_flow:
+    path: packages/firebase_flow/authentication_repository
+  form_inputs:
+    path: packages/form_inputs
+  
   authentication_repository:
     path: packages/authentication_repository
   user_repository:

@@ -1,4 +1,4 @@
-name: authentication_repository
+name: firebase_flow
 description: Dart package which manages the authentication domain.
 publish_to: 'none'
 version: 1.0.0+1
