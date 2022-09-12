@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../home/view/home_page.dart';
 import '../../login/view/view.dart';
+import '../../signup/view/view.dart';
 import '../bloc/app_bloc.dart';
 
 List<Page<dynamic>> onGenerateAppViewPages(
@@ -13,6 +14,6 @@ List<Page<dynamic>> onGenerateAppViewPages(
       return [HomePage.page()];
 
     case AppStatus.unauthenticated:
-      return [LoginPage.page()];
+      return [SignupPage.page()];
   }
 }

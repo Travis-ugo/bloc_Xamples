@@ -60,6 +60,7 @@ class SignupCubit extends Cubit<SignupState> {
   Future<void> googleButton() async {
     try {
       await _authenticationRepository.loginWithGoogle();
+      emit(state.copyWith(status: FormzStatus.submissionSuccess));
     } on SignUpWithEmailAndPasswordFailure catch (e) {
       emit(
         state.copyWith(
