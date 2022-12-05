@@ -18,15 +18,15 @@ should be added in the pubspec.yaml to use flutter dual screen sdk communication
 
 - [togg-appstore-library](https://gitlab.home-ix.com/cooperations/togg/togg-appstore/togg-appstore-library)
 
-run pub get, to get all packages used in this project.
+#### run pub get, to get all packages used in this project.
             pub get
-use generated files to generate router and serialisable. Generate .gr files before running the app
+#### use generated files to generate router and serialisable. Generate .gr files before running the app
             flutter packages pub run build_runner build
 
 
-remove code android:sharedUserId="android.uid.system”, while using an emulator.
+#### remove code android:sharedUserId="android.uid.system”, while using an emulator.
 
-   togg-appstore-carapp/app/src/main/AndroidManifest.xml
+            togg-appstore-carapp/app/src/main/AndroidManifest.xml
 
 
    ## Before
