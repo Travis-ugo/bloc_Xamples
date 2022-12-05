@@ -79,9 +79,8 @@ line 101.
    
    ### Step 4
    #### set screen resolution 
-      
-   ![Screenshot 2022-12-05 at 04 38 53](https://user-images.githubusercontent.com/68594765/205544916-9d31a209-e3eb-4de8-9379-f590e989e7a6.png)
-   ![Screenshot 2022-12-05 at 04 39 03](https://user-images.githubusercontent.com/68594765/205544410-cfb2581a-fb20-4f2e-abcf-be7e8f27398d.png)
+      ![Screenshot 2022-12-05 at 05 07 07](https://user-images.githubusercontent.com/68594765/205547591-7eb3b7b5-dbc3-440d-bd94-428c2bae9704.png)
+
 
 
                     
