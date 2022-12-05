@@ -75,11 +75,11 @@ line 101.
    ![clone_device](https://user-images.githubusercontent.com/68594765/205543656-844be32f-c824-49a5-90e3-823871e7e321.png)
    
    ### Step 3 
-   ![Screenshot 2022-12-05 at 04 33 26](https://user-images.githubusercontent.com/68594765/205544403-2a5948f9-a164-4ed3-87dd-838be2e7105e.png)
+   
    
    ### Step 4
    #### set screen resolution 
-      ![Screenshot 2022-12-05 at 05 07 07](https://user-images.githubusercontent.com/68594765/205547591-7eb3b7b5-dbc3-440d-bd94-428c2bae9704.png)
+   ![Screenshot 2022-12-05 at 05 07 07](https://user-images.githubusercontent.com/68594765/205547591-7eb3b7b5-dbc3-440d-bd94-428c2bae9704.png)
 
 
 
