@@ -29,19 +29,14 @@ remove code android:sharedUserId="android.uid.system”, while using an emulator
    togg-appstore-carapp/app/src/main/AndroidManifest.xml
 
 
-   ##Before
+   ## Before
         <?xml version="1.0" encoding="utf-8"?>
         <!-- TODO remove android:sharedUserId="android.uid.system" for running the app in emulator-->
         <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           package="tr.com.togg.appstore"
           android:sharedUserId="android.uid.system" >
-                        
-  .
-            
- remove code android:sharedUserId="android.uid.system”, while using an emulator.           
-            
-            
+                                   
       
    ## After
         <?xml version="1.0" encoding="utf-8"?>
@@ -56,13 +51,15 @@ remove code android:sharedUserId="android.uid.system”, while using an emulator
 ## Simulator Set-Up
 
 The Simulator is used to imitate the Togg car control screen and main screen during production
-note:  when running the application on a simulator, uncomment the code in the Manifest file: 
+note:  when running the application on a simulator, uncomment the code in the Manifest file:
 
+   ## Before 
         101    //toSecondScreen()
 
 togg-appstore-carapp/app/src/main/java/tr/com/togg/appstore/MainActivity.kt, 
 line 101. 
-
+            
+   ## After
         101    toSecondScreen()
                     
                     
