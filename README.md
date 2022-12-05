@@ -26,7 +26,7 @@ should be added in the pubspec.yaml to use flutter dual screen sdk communication
 
 #### remove code android:sharedUserId="android.uid.system”, while using an emulator.
 
-            togg-appstore-carapp/app/src/main/AndroidManifest.xml
+#### togg-appstore-carapp/app/src/main/AndroidManifest.xml
 
 
    ## Before
@@ -53,6 +53,8 @@ should be added in the pubspec.yaml to use flutter dual screen sdk communication
 The Simulator is used to imitate the Togg car control screen and main screen during production
 note:  when running the application on a simulator, uncomment the code in the Manifest file:
 
+#### togg-appstore-carapp/app/src/main/java/tr/com/togg/appstore/MainActivity.kt
+
    ## Before 
         101    //toSecondScreen()
 
@@ -62,8 +64,20 @@ line 101.
    ## After
         101    toSecondScreen()
                     
-                    
-                    
+         
+   ## Create Simulator 
+   
+   ### Step 1 
+   ![create_device](https://user-images.githubusercontent.com/68594765/205542642-7f7bb424-75d9-464e-9210-a59fa16d824c.png)
+
+   ### Step 2     
+   ![clone_device](https://user-images.githubusercontent.com/68594765/205543656-844be32f-c824-49a5-90e3-823871e7e321.png)
+   
+   ### Step 3 
+   ![Screenshot 2022-12-05 at 04 33 26](https://user-images.githubusercontent.com/68594765/205544403-2a5948f9-a164-4ed3-87dd-838be2e7105e.png)
+   ![Screenshot 2022-12-05 at 04 39 03](https://user-images.githubusercontent.com/68594765/205544410-cfb2581a-fb20-4f2e-abcf-be7e8f27398d.png)
+
+
                     
                  
 ### Application Dependecies
