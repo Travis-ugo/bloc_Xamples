@@ -83,10 +83,16 @@ line 101.
 
    
    ### Step 4
-   #### set screen resolution 
+   #### set screen resolution and uncheck the portrait box
    ![Screenshot 2022-12-05 at 05 07 07](https://user-images.githubusercontent.com/68594765/205547591-7eb3b7b5-dbc3-440d-bd94-428c2bae9704.png)
 
-   ![Uploading Screenshot 2022-12-05 at 05.12.07.png…]()
+  ![Screenshot 2022-12-05 at 05 12 07](https://user-images.githubusercontent.com/68594765/205663014-d631edc4-5e73-44cb-8d0a-da07f257e35c.png)
+![Screenshot 2022-12-05 at 05 12 07](https://user-images.githubusercontent.com/68594765/205663195-9fcfe9b4-2a34-4aa2-a381-52b2e11b6ad8.png)
+
+
+![Screenshot 2022-11-27 at 01 18 48](https://user-images.githubusercontent.com/68594765/205663589-89877504-b219-4337-973f-e701d914e490.png)
+![Screenshot 2022-11-27 at 01 44 29](https://user-images.githubusercontent.com/68594765/205663208-e66e7d83-6137-431d-a324-892b9f41a25d.png)
+
 
                     
                  
