@@ -64,24 +64,29 @@ line 101.
             
    ## After
         101    toSecondScreen()
-                    
+          
+       
          
    ## Create Simulator 
    
    ### Step 1 
+   create simulator
    ![create_device](https://user-images.githubusercontent.com/68594765/205542642-7f7bb424-75d9-464e-9210-a59fa16d824c.png)
 
-   ### Step 2     
+   ### Step 2    
+   Select device definition
    ![clone_device](https://user-images.githubusercontent.com/68594765/205543656-844be32f-c824-49a5-90e3-823871e7e321.png)
    
    ### Step 3 
-   
+   Select system image
+   ![Screenshot 2022-12-05 at 05 10 42](https://user-images.githubusercontent.com/68594765/205661882-75dbad43-5d89-4283-bfb6-00ce8da2eebb.png)
+
    
    ### Step 4
    #### set screen resolution 
    ![Screenshot 2022-12-05 at 05 07 07](https://user-images.githubusercontent.com/68594765/205547591-7eb3b7b5-dbc3-440d-bd94-428c2bae9704.png)
 
-
+   ![Uploading Screenshot 2022-12-05 at 05.12.07.png…]()
 
                     
                  
