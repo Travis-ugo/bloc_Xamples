@@ -88,9 +88,13 @@ line 101.
 
   ![Screenshot 2022-12-05 at 05 12 07](https://user-images.githubusercontent.com/68594765/205663014-d631edc4-5e73-44cb-8d0a-da07f257e35c.png)
 
-
-  ![Screenshot 2022-11-27 at 01 44 29](https://user-images.githubusercontent.com/68594765/205664273-61ff2857-fbb5-468e-9d04-bf7acadbb928.png)
+   ### Step 5
+   #### Play the simultor
   ![Screenshot 2022-11-27 at 01 18 48](https://user-images.githubusercontent.com/68594765/205664280-ace69631-f0be-4cf9-9679-9ca5a91f13c7.png)
+  
+   ### Step 6
+   #### set second screen resolution, and apply changes.
+  ![Screenshot 2022-11-27 at 01 44 29](https://user-images.githubusercontent.com/68594765/205664273-61ff2857-fbb5-468e-9d04-bf7acadbb928.png)
 
                  
 ### Application Dependecies
