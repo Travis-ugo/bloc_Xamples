@@ -36,7 +36,12 @@ remove code android:sharedUserId="android.uid.system”, while using an emulator
           xmlns:tools="http://schemas.android.com/tools"
           package="tr.com.togg.appstore"
           android:sharedUserId="android.uid.system" >
-          
+                        
+  .
+            
+            
+            
+            
        
    ## After
         <?xml version="1.0" encoding="utf-8"?>
