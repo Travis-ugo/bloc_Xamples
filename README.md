@@ -24,6 +24,7 @@ should be added in the pubspec.yaml to use flutter dual screen sdk communication
             flutter packages pub run build_runner build
 
 
+
 #### remove code android:sharedUserId="android.uid.system”, while using an emulator.
 
 #### togg-appstore-carapp/app/src/main/AndroidManifest.xml
@@ -75,6 +76,11 @@ line 101.
    
    ### Step 3 
    ![Screenshot 2022-12-05 at 04 33 26](https://user-images.githubusercontent.com/68594765/205544403-2a5948f9-a164-4ed3-87dd-838be2e7105e.png)
+   
+   ### Step 4
+   #### set screen resolution 
+      
+   ![Screenshot 2022-12-05 at 04 38 53](https://user-images.githubusercontent.com/68594765/205544916-9d31a209-e3eb-4de8-9379-f590e989e7a6.png)
    ![Screenshot 2022-12-05 at 04 39 03](https://user-images.githubusercontent.com/68594765/205544410-cfb2581a-fb20-4f2e-abcf-be7e8f27398d.png)
 
 
