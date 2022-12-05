@@ -96,4 +96,4 @@ line 101.
    #### set second screen resolution, and apply changes.
   ![Screenshot 2022-11-27 at 01 44 29](https://user-images.githubusercontent.com/68594765/205664273-61ff2857-fbb5-468e-9d04-bf7acadbb928.png)
 
-  
+  #### Build the gradle files, and run application on the emulator.
